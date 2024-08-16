@@ -1,6 +1,6 @@
 # ChatGPT in Higher Education: Expert and Public Perceptions
 
-This repository contains the data, code, and results for the study on expert and public perceptions of ChatGPT in higher education. The project employs advanced Natural Language Processing (NLP) techniques, including topic modeling and sentiment analysis, to analyze discourse from both experts and the public.
+This repository contains the data, code, and results for the study on expert and public perceptions of ChatGPT in higher education.
 
 ## Repository Structure
 
@@ -17,7 +17,7 @@ The code is organized into three main sections: data collection, preprocessing, 
 - `subreddits_selection.ipynb`: Notebook for selecting relevant subreddits for data collection.
 
 #### **Preprocessing**
-- `combine_public_data.py`: combine post with comments
+- `combine_public_data.py`: Combine post with comments
 - `add_id_expert.py`: Adds unique identifiers to the expert dataset.
 - `clean_text_data.py`: Cleans and preprocesses text data for analysis.
 - `load_and_chunk_data.py`: Loads and chunks large expert datasets into manageable segments.
@@ -28,7 +28,7 @@ The code is organized into three main sections: data collection, preprocessing, 
 - `calculate_embeddings.ipynb`: Notebook for generating text embeddings for topic modeling.
 - `dimention_reduction.ipynb`: Performs dimensionality reduction on the embeddings.
 - `clustering+BERTopic.ipynb`: Clusters the data and applies BERTopic for topic extraction.
-- `remove_irrelevant_documents.ipynb`: remove documents from the irrelavant topic
+- `remove_irrelevant_documents.ipynb`: Remove documents from the irrelavant topic
 
 #### **Sentiment Analysis**
 - `sentiment_analysis.ipynb`: Conducts sentiment analysis on the expert and public datasets.
