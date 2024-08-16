@@ -6,12 +6,7 @@ This repository contains the data, code, and results for the study on expert and
 
 ### 1. Data
 
-- **Raw Data**: The raw datasets are stored in compressed files.
-  - `expert_raw_data.zip`: Contains the raw expert data.
-  - `public_raw_data.zip`: Contains the raw public data.
-  
-- **Filtered Data**: The filtered and processed data used throughout the analysis is stored in an SQLite database.
-  - `all_data.db.zip`: The database containing all filtered data used in the analysis, stored in an SQLite format.
+The raw datasets, filtered and processed data used throughout the analysis are stored here: https://drive.google.com/drive/folders/1nXKC23aA8rBMQvrlcb5u2E7OWFJr_rPf?usp=sharing.
 
 ### 2. Code
 
